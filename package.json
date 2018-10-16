@@ -1,0 +1,26 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "a CLI app that gives you any city's weather infomation",
+  "scripts": {},
+  "preferGlobal": true,
+  "repository": {},
+  "bin": {
+    "weather": "bin/weather"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "weather",
+    "node"
+  ],
+  "devDependencies": {},
+  "dependencies": {
+    "axios": "^0.18.0",
+    "minimist": "^1.2.0",
+    "ora": "^3.0.0",
+    "request": "^2.88.0"
+  }
+}
